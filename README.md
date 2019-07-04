@@ -17,6 +17,12 @@ Created by [Tristano Ajmone] in June 2, 2019.
 - [Project Organization](#project-organization)
 - [Contributing](#contributing)
 - [License](#license)
+- [External Links](#external-links)
+    - [Documentation and Tutorials](#documentation-and-tutorials)
+    - [Code Examples](#code-examples)
+    - [Libraries](#libraries)
+    - [Editors](#editors)
+    - [Miscellanea](#miscellanea)
 
 <!-- /MarkdownTOC -->
 
@@ -93,6 +99,44 @@ FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 ```
 
+# External Links
+
+- [www.AlanIF.se][ALAN] — the ALAN website.
+- [ALAN Yahoo Group] — for community help, announcements and discussions.
+- [ALAN sources][ALAN Bitbucket] — source code repository on Bitbucket.
+
+## Documentation and Tutorials
+
+- [Alan Docs] — GitHub repository for Alan documentation.
+- _[The ALAN Manual]_ — online-readable version of the latest _ALAN Adventure Language Reference Manual_.
+- _[Alan Cookbook v2]_ — by [Anssi Räisänen].
+- _[The Alan Beginner's Guide]_ — by Michael Arnaud (2006). [Tutorial source files available](https://github.com/alan-if/alan-docs/tree/master/alanguide/alanguide-code).
+- _[Alan IDE Reference Guide]_ — by Robert DeFord (2018).
+
+## Code Examples
+
+- [Samples & examples for alan v3] — on ALAN website.
+
+
+## Libraries
+
+- [ALAN Standard Library] — by [Anssi Räisänen], GitHub repository.
+- [ALAN Library v0.6.2] — an earlier (but still working) library (2002–2007), mainly used to compile legacy adventures.
+- [ALAN StdLibLab] — experimental playground for variations on the Alan StdLib.
+- [Alan Italian] — Italian port of the Alan StdLib.
+
+## Editors
+
+- [AlanIDE] — a complete Alan Integrated Development Environment, built in Java/Eclipse by Alan developer [Thomas Nilefalk]. For more info, see:
+    + [AlanIDE info page].
+    + _[Alan IDE Reference Guide]_ — by Robert DeFord (2018), PDF document.
+    + [AlanIDE sources] — JAVA source files, on GitHub.
+- [Sublime Alan] — [Sublime Text 3] package for Alan 3 (working Alpha).
+
+
+## Miscellanea
+
+- [Alan Goodies] — A collection of assorted assets for Alan.
 
 <!-----------------------------------------------------------------------------
                                REFERENCE LINKS
@@ -108,12 +152,43 @@ OTHER DEALINGS IN THE SOFTWARE.
 [ALAN]: https://www.alanif.se/ "Visit the ALAN website"
 [ALAN IF]: https://www.alanif.se/ "Visit the ALAN website"
 [ALAN Yahoo Group]: https://groups.yahoo.com/neo/groups/alan-if/info "Visit the Alan-IF group on Yahoo"
+[ALAN Bitbucket]: https://bitbucket.org/alanif/alan/ "Visit the ALAN source repository on Bitbucket"
+
+
+<!-- AlanIDE -->
+
+[AlanIDE]: https://www.alanif.se/download-alan-v3/alanide "Go to the AlanIDE download page on Alan website"
+[AlanIDE info page]: https://www.alanif.se/information/alanide/alanide-intro "View the AlanIDE information page on Alan website"
+[Alan IDE Reference Guide]: https://github.com/alan-if/alan-docs/blob/master/ideguide/ideguide.pdf "Get the 'Alan IDE Reference Guide' (PDF format)"
+[AlanIDE sources]: https://github.com/thoni56/alanide "Visit the AlanIDE source repository on GitHub"
 
 <!-- Alan StdLib -->
 
 [ALAN Standard Library]: https://github.com/AnssiR66/AlanStdLib/ "Visit the official repository of the ALAN Standard Library on GitHub"
 
 [Artistic License 2.0]: https://opensource.org/licenses/Artistic-2.0
+
+<!-- Alan misc -->
+
+[Alan Goodies]: https://github.com/tajmone/alan-goodies "Visit the Alan Goodies project on GitHub"
+[ALAN Library v0.6.2]: https://github.com/tajmone/alan-goodies/tree/master/libs "View ALAN Lib v0.6.2 at the 'Alan Goodies' project"
+[ALAN StdLibLab]: https://github.com/tajmone/Alan-StdLibLab "Visit the ALAN StdLibLab project on GitHub"
+[Alan Italian]: https://github.com/tajmone/Alan3-Italian "Visit the Alan Italian project on GitHub"
+[Sublime Alan]: https://github.com/tajmone/sublime-alan "Visit the Sublime Alan project on GitHub"
+
+<!-- Alan docs & tutorials -->
+
+[Alan Docs]: https://github.com/alan-if/alan-docs "Visit the Alan Docs project on GitHub"
+[The ALAN Manual]: http://htmlpreview.github.io/?https://github.com/alan-if/alan-docs/blob/master/manual/manual.html "Live HTML preview of the ALAN Manual"
+[Alan Cookbook v2]: https://www.alanif.se/download-alan-v3/all-downloads/documentation/alan-cookbook-v2 "Go to the 'Alan Cookbook' download page on Alan website"
+
+[The Alan Beginner's Guide]: http://htmlpreview.github.io/?https://github.com/alan-if/alan-docs/blob/master/alanguide/alanguide.html "Live HTML preview of the Alan Beginner's Guide"
+
+[Samples & examples for alan v3]: https://www.alanif.se/information/samples
+
+<!-- 3r party tools -->
+
+[Sublime Text 3]: https://www.sublimetext.com/ "Visit Sublime Text website"
 
 <!-- repo xrefs -->
 
@@ -125,5 +200,7 @@ OTHER DEALINGS IN THE SOFTWARE.
 
 [Anssi Räisänen]: https://github.com/AnssiR66 "View Anssi Räisänen's GitHub profile"
 [Tristano Ajmone]: https://github.com/tajmone "View Tristano Ajmone's GitHub profile"
+[Thomas Nilefalk]: https://github.com/thoni56 "View Thomas Nilefalk's GitHub profile"
+
 
 <!-- EOF -->
