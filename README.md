@@ -1,6 +1,6 @@
 # ALAN by Examples
 
-- https://github.com/tajmone/alan-by-examples
+- https://github.com/alan-if/alan-by-examples
 
 A collection of examples to learn [ALAN IF] v3 — the Alan Interactive Fiction Language. Provided as a public service by the [Alan Interactive Fiction Development team].
 
