@@ -3,10 +3,38 @@
 A collection of examples on how to implement various gimmicks and effects by using pure Alan code.
 Examples are organized following _[The Inform Recipe Book]_ that ships with [Inform 7] — hopefully, in the course of time this will become a full fledged book, like its i7 counterpart.
 
+
+-----
+
+**Table of Contents**
+
+
+<!-- MarkdownTOC autolink="true" bracket="round" autoanchor="false" lowercase="only_ascii" uri_encoding="true" levels="1,2,3,4" -->
+
+- [Available Contents](#available-contents)
+- [Full Table of Contents](#full-table-of-contents)
+
+<!-- /MarkdownTOC -->
+
+-----
+
+# Available Contents
+
+These are the currently available book chapters and sections — the number of examples in each section is indicated within round brackets:
+
+- [ ] 1. [How to Use The Recipe Book]
+- [ ] 8. [Vehicles, Animals and Furniture]
+    + [ ] 8.2. [Ships, Trains and Elevators]  (0)
+
+Some sections indicate zero examples, which means that only the introductory text has been written to provide guidelines for contributing examples.
+
+The above task list is used to track the status of the various chapters and sections, where a check mark indicates that the minimum requirements have been met to declare a chapter or section sufficiently complete.
+
+# Full Table of Contents
+
 > __WIP NOTE__ — The recipes collection is still a work-in-progress.
 > The TOC below illustrates how the collection will ultimately look like, but only sections with available contents have active links.
-
-# Table of Contents
+> Providing the full TOC should help planning examples contributions.
 
 1. [How to Use The Recipe Book]
 2. Adaptive Prose
@@ -73,9 +101,9 @@ Examples are organized following _[The Inform Recipe Book]_ that ships with [Inf
     + 7.14. Obedient Characters
     + 7.15. Goal-Seeking Characters
     + 7.16. Social Groups
-8. Vehicles, Animals and Furniture
+8. [Vehicles, Animals and Furniture]
     + 8.1. Bicycles, Cars and Boats
-    + 8.2. Ships, Trains and Elevators
+    + 8.2. [Ships, Trains and Elevators]
     + 8.3. Animals
     + 8.4. Furniture
     + 8.5. Kitchen and Bathroom
@@ -127,8 +155,15 @@ Examples are organized following _[The Inform Recipe Book]_ that ships with [Inf
 [Inform 7]: http://inform7.com "Visit Inform 7 website"
 [The Inform Recipe Book]: http://inform7.com/book/RB_1_1.html "View 'The Inform Recipe Book' online"
 
-<!-- Contents Links -->
+<!-- Book Contents Links ------------------------------------------------------>
 
-[How to Use The Recipe Book]: ./01/README.md "Go to chapter"
+<!-- 1. How to Use The Recipe Book -->
+
+[How to Use The Recipe Book]: ./01/README.md "Go to chapter 1. How to Use The Recipe Book"
+
+<!-- 8. Vehicles, Animals and Furniture -->
+
+[Vehicles, Animals and Furniture]: ./08/README.md "Go to chapter 8. Vehicles, Animals and Furniture"
+[Ships, Trains and Elevators]: ./08/02/README.md "Go to §8.2. Ships, Trains and Elevators"
 
 <!-- EOF -->

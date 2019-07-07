@@ -27,6 +27,8 @@ Although the two languages are quite different in nature, the _[The Inform Recip
 The goal of _The Alan Recipe Book_ is to present Alan-specific solutions to the same general problems presented in _[The Inform Recipe Book]_, for the challenges faced by IF authors are the same, regardless of the authoring tool and language.
 Obviously, the actual Alan examples will differ from their [Inform 7] counterparts, and the goal is not to recreate the same exact manual, but only to keep the same structural organization — which has the added benefit of providing familiarity for those coming to Alan from [Inform 7].
 
+Reusing the structure of a well established manual like _[The Inform Recipe Book]_ will simplify the creation of this project, for it gives as a good model to work on, allowing us to focus our energies on writing the actual examples until all sections are fulfilled.
+
 # Project Status
 
 _The Alan Recipe Book_ is still in its very early stages, but we hope that through users' contributions it will eventually grow in time and ultimately become a full-fledged book — when this happens, we'll actually publish it as a readable eBook with examples sources and transcripts.
