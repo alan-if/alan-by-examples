@@ -12,6 +12,7 @@ Created by [Tristano Ajmone] in June 2, 2019.
 
 <!-- MarkdownTOC autolink="true" bracket="round" autoanchor="false" lowercase="only_ascii" uri_encoding="true" levels="1,2,3" -->
 
+- [Project Contents](#project-contents)
 - [About ALAN](#about-alan)
 - [About This Project](#about-this-project)
 - [Project Organization](#project-organization)
@@ -27,6 +28,12 @@ Created by [Tristano Ajmone] in June 2, 2019.
 <!-- /MarkdownTOC -->
 
 -----
+
+# Project Contents
+
+- [`/recipes/`](./recipes/) — _The Alan Recipe Book_.
+- [`CONTRIBUTING.md`](CONTRIBUTING.md) — _Contributors' Guidelines_.
+- [`LICENSE`](./LICENSE) — MIT License.
 
 # About ALAN
 
@@ -50,7 +57,10 @@ Since there are many ways to implement solutions to common IF problems, differen
 
 # Project Organization
 
-The project being in its early stages, we'd rather leave its structural organization open for now, and let it be shaped by the actual contributions. As examples start to flow in, we'll be able to organize them into categories by subfoldering them in a way to make consultation easier.
+The project being in its early stages, we'd rather leave its structural organization open for now, and let it be shaped by the actual contributions.
+As examples start to flow in, we'll be able to organize them into categories by subfoldering them in a way to make consultation easier.
+
+Currently, there's only the [`recipes/`](./recipes/) directory tree, hosting _[The Alan Recipe Book]_; but more directories will be added as the need arises.
 
 # Contributing
 
@@ -198,6 +208,7 @@ OTHER DEALINGS IN THE SOFTWARE.
 
 [open an issue]: https://github.com/tajmone/alan-by-examples/issues/new "Click to open an issue"
 [Contributors' Guidelines]: ./CONTRIBUTING.md
+[The Alan Recipe Book]: ./recipes/README.md "Go to the The Alan Recipe Book"
 
 <!-- people -->
 
