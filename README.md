@@ -54,8 +54,12 @@ The project being in its early stages, we'd rather leave its structural organiza
 
 # Contributing
 
+- [`CONTRIBUTING.md`](CONTRIBUTING.md)
+
 Anyone can contribute examples to the project, via Git and GitHub.
 By contributing your examples to this project, you are donating your code to the Alan community under the MIT License (although it will still be attributed to you, and you'll retain its paternity).
+
+More information on how to submit contents to the project can be found in the _[Contributors' Guidelines]_ document.
 
 For questions and discussions, you can either:
 
@@ -193,6 +197,7 @@ OTHER DEALINGS IN THE SOFTWARE.
 <!-- repo xrefs -->
 
 [open an issue]: https://github.com/tajmone/alan-by-examples/issues/new "Click to open an issue"
+[Contributors' Guidelines]: ./CONTRIBUTING.md
 
 <!-- people -->
 
