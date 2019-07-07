@@ -97,12 +97,12 @@ The preferred choice for documentation formatting is GFM ([GitHub Flavored Markd
 
 If you are more familiar with other markup syntaxes, you may use anyone of the syntaxes listed in the table below, using the indicated file extension:
 
-|       markup       |  extension  |
-|--------------------|-------------|
-| [AsciiDoc (Ruby)]  | `.asciidoc` |
-| [Markdown (GFM)]   | `.md`       |
-| [ReStructuredText] | `.rst `     |
-| [Textile]          | `.textile`  |
+|       markup       |     flavour      |  extension  |
+|--------------------|------------------|-------------|
+| [AsciiDoc]         | Asciidoctor Ruby | `.asciidoc` |
+| [Markdown]         | GFM              | `.md`       |
+| [ReStructuredText] |                  | `.rst `     |
+| [Textile]          |                  | `.textile`  |
 
 Although the above table doesn't contain all of the [lightweight markup syntaxes supported by GitHub], we've restricted the choice to the most commonly used syntaxes in order to avoid having to deal with a confusion of languages of Babylonian proportions.
 
@@ -134,8 +134,8 @@ Since it has become standard practice on any Git related project to adopt a ligh
 
 <!-- markup syntaxes -->
 
-[AsciiDoc (Ruby)]: http://asciidoctor.org/"Learn more about Asciidoctor"
-[Markdown (GFM)]: https://guides.github.com/features/mastering-markdown/ "Learn more about GitHub Flavored Markdown"
+[AsciiDoc]: http://asciidoctor.org/"Learn more about Asciidoctor"
+[Markdown]: https://guides.github.com/features/mastering-markdown/ "Learn more about GitHub Flavored Markdown"
 [ReStructuredText]: http://docutils.sourceforge.net/rst.html "Learn more about ReStructuredText"
 [Textile]: https://www.promptworks.com/textile "Learn more about Textile"
 
