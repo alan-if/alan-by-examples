@@ -134,7 +134,7 @@ Since it has become standard practice on any Git related project to adopt a ligh
 
 <!-- markup syntaxes -->
 
-[AsciiDoc]: http://asciidoctor.org/"Learn more about Asciidoctor"
+[AsciiDoc]: http://asciidoctor.org/ "Learn more about Asciidoctor"
 [Markdown]: https://guides.github.com/features/mastering-markdown/ "Learn more about GitHub Flavored Markdown"
 [ReStructuredText]: http://docutils.sourceforge.net/rst.html "Learn more about ReStructuredText"
 [Textile]: https://www.promptworks.com/textile "Learn more about Textile"
