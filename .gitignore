@@ -27,7 +27,7 @@ appsettings.json
 ## In case someone still uses Ruby Sass:
 .sass-cache/
 
-
+## ===============
 ## Misc Work Files
 ## ===============
 
@@ -39,11 +39,17 @@ ___*.*
 *.lnk
 *.url
 
-# Binary executables
+## ==================
+## Binary executables
+## ==================
 *.exe
 *.app
 *.out
 
+## ~~~~~~~~~~~~~~~~
+## Exceptions Rules
+## ~~~~~~~~~~~~~~~~
+!/_bin/*.exe
 
 # ==============================================================================
 #                              MISC IGNORE PATTERNS                             
@@ -116,9 +122,6 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 
-# Windows shortcuts
-*.lnk
-
 # <<< End of https://www.gitignore.io/api/windows,linux,macos,purebasic
 
-
+# EOF #

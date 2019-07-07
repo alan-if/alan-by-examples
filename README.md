@@ -6,6 +6,8 @@ A collection of examples to learn [ALAN IF] v3 — the Alan Interactive Fiction 
 
 Created by [Tristano Ajmone] in June 2, 2019.
 
+    Alan SDK v3.0beta6
+
 -----
 
 **Table of Contents**
@@ -18,6 +20,7 @@ Created by [Tristano Ajmone] in June 2, 2019.
 - [Project Organization](#project-organization)
 - [Contributing](#contributing)
 - [License](#license)
+    - [Alan SDK License](#alan-sdk-license)
 - [External Links](#external-links)
     - [Documentation and Tutorials](#documentation-and-tutorials)
     - [Code Examples](#code-examples)
@@ -31,6 +34,7 @@ Created by [Tristano Ajmone] in June 2, 2019.
 
 # Project Contents
 
+- [`/_bin/`](./_bin/) — Alan SDK binaries for Windows (for toolchain automation).
 - [`/recipes/`](./recipes/) — _The Alan Recipe Book_.
 - [`CONTRIBUTING.md`](CONTRIBUTING.md) — _Contributors' Guidelines_.
 - [`LICENSE`](./LICENSE) — MIT License.
@@ -112,6 +116,17 @@ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 ```
+
+The above license doesn't apply to third party assets which might be included in this project, which are governed by their own license terms and copyright notice — as indicated by their license files, which shall be included along with those assets, as well as being mentioned in this section.
+
+## Alan SDK License
+
+- [`/_bin/`](./_bin/)
+
+The above folder contains the Windows executables of the Alan SDK, which are released under the terms of the Artistic License 2.0:
+
+- [`/_bin/COPYING`](./_bin/COPYING)
+
 
 # External Links
 
