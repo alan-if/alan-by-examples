@@ -19,7 +19,8 @@ Created by [Tristano Ajmone] in June 2, 2019.
 - [About This Project](#about-this-project)
 - [Project Organization](#project-organization)
 - [Contributing](#contributing)
-- [License](#license)
+- [Project License](#project-license)
+- [Third Party Assets Licenses](#third-party-assets-licenses)
     - [Alan SDK License](#alan-sdk-license)
 - [External Links](#external-links)
     - [Documentation and Tutorials](#documentation-and-tutorials)
@@ -34,7 +35,8 @@ Created by [Tristano Ajmone] in June 2, 2019.
 
 # Project Contents
 
-- [`/_bin/`](./_bin/) — Alan SDK binaries for Windows (for toolchain automation).
+- [`/_dev/`](./_dev/) — Project maintainers' assets:
+    + [`/AlanSDK/`](./_dev/AlanSDK/) — Alan SDK binaries for Windows (for toolchain automation).
 - [`/recipes/`](./recipes/) — _The Alan Recipe Book_.
 - [`CONTRIBUTING.md`](CONTRIBUTING.md) — _Contributors' Guidelines_.
 - [`LICENSE`](./LICENSE) — MIT License.
@@ -81,7 +83,7 @@ For questions and discussions, you can either:
 - post on the [ALAN Yahoo Group] — for all discussion involving the ALAN community.
 
 
-# License
+# Project License
 
 - [`LICENSE`](./LICENSE)
 
@@ -119,13 +121,17 @@ OTHER DEALINGS IN THE SOFTWARE.
 
 The above license doesn't apply to third party assets which might be included in this project, which are governed by their own license terms and copyright notice — as indicated by their license files, which shall be included along with those assets, as well as being mentioned in this section.
 
+# Third Party Assets Licenses
+
+The project includes the following assets created by third parties, each governed by its own license terms.
+
 ## Alan SDK License
 
-- [`/_bin/`](./_bin/)
+- [`/_dev/AlanSDK/`](./_dev/AlanSDK/)
 
-The above folder contains the Windows executables of the Alan SDK, which are released under the terms of the Artistic License 2.0:
+The above folder contains the Windows executables of the [Alan SDK], which are released under the terms of the Artistic License 2.0:
 
-- [`/_bin/COPYING`](./_bin/COPYING)
+- [`/_dev/AlanSDK/COPYING`](./_dev/AlanSDK/COPYING)
 
 
 # External Links
@@ -183,6 +189,7 @@ The above folder contains the Windows executables of the Alan SDK, which are rel
 [ALAN Yahoo Group]: https://groups.yahoo.com/neo/groups/alan-if/info "Visit the Alan-IF group on Yahoo"
 [ALAN Bitbucket]: https://bitbucket.org/alanif/alan/ "Visit the ALAN source repository on Bitbucket"
 
+[Alan SDK]: https://www.alanif.se/download-alan-v3/development-kits "Go to the Alan SDK section of the ALAN website"
 
 <!-- AlanIDE -->
 
