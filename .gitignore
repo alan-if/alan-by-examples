@@ -50,6 +50,7 @@ ___*.*
 ## Exceptions Rules
 ## ~~~~~~~~~~~~~~~~
 !/_dev/AlanSDK/*.exe
+!/ABuilder.exe
 
 # ==============================================================================
 #                              MISC IGNORE PATTERNS                             

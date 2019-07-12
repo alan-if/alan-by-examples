@@ -1,0 +1,8 @@
+os: windows
+language: bash
+git:
+  quiet: true
+notifications:
+  on_success: never
+  on_failure: never
+script: ./ABuilder.exe

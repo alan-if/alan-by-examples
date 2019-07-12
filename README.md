@@ -1,5 +1,8 @@
 # ALAN by Examples
 
+[![Build Status][Travis Badge]][Travis LInk]
+
+
 - https://github.com/alan-if/alan-by-examples
 
 A collection of examples to learn [ALAN IF] v3 — the Alan Interactive Fiction Language. Provided as a public service by the [Alan Interactive Fiction Development team].
@@ -22,6 +25,7 @@ Created by [Tristano Ajmone] in June 2, 2019.
 - [Project License](#project-license)
 - [Third Party Assets Licenses](#third-party-assets-licenses)
     - [Alan SDK License](#alan-sdk-license)
+    - [Alan Project Builder](#alan-project-builder)
 - [External Links](#external-links)
     - [Documentation and Tutorials](#documentation-and-tutorials)
     - [Code Examples](#code-examples)
@@ -38,6 +42,8 @@ Created by [Tristano Ajmone] in June 2, 2019.
 - [`/_dev/`](./_dev/) — Project maintainers' assets:
     + [`/AlanSDK/`](./_dev/AlanSDK/) — Alan SDK binaries for Windows (for toolchain automation).
 - [`/recipes/`](./recipes/) — _The Alan Recipe Book_.
+- [`ABuilder.exe`](./ABuilder.exe) — tests and builds the project (locally and on GitHub via [Travis CI])
+- [`ABuilderLICENSE`](./ABuilderLICENSE) — MIT License for `ABuilder.exe`.
 - [`CONTRIBUTING.md`](CONTRIBUTING.md) — _Contributors' Guidelines_.
 - [`LICENSE`](./LICENSE) — MIT License.
 
@@ -133,6 +139,44 @@ The above folder contains the Windows executables of the [Alan SDK], which are r
 
 - [`/_dev/AlanSDK/COPYING`](./_dev/AlanSDK/COPYING)
 
+## Alan Project Builder
+
+- `ABuilder.exe`
+- [`ABuilderLICENSE`](./ABuilderLICENSE) — MIT License.
+
+The __[ALAN Builder]__ tool was created by Tristano Ajmone and donated to the [Alan Interactive Fiction Development team] under MIT License.
+
+```
+MIT License
+
+Copyright (c) 2019 Tristano Ajmone and the Alan IF Development team
+https://github.com/alan-if/Alan-Builder
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+Please, note that the [`ABuilderLICENSE`](./ABuilderLICENSE) file contains additional licenses for [third party components used by the PureBasic compiler], which _must_ be included with any distribution of the __Alan Builder__ application in compiled binary format (but not necessarily so if only the source code is being distributed).
+
+The full source code (in [PureBasic]) can be found on the __ALAN Builder__ repository:
+
+- https://github.com/alan-if/Alan-Builder
+
 
 # External Links
 
@@ -181,6 +225,11 @@ The above folder contains the Windows executables of the [Alan SDK], which are r
 [words of advise to his nephew]: https://en.wikipedia.org/wiki/With_great_power_comes_great_responsibility "See Wikipedia page on the motto 'With great power comes great responsibility'"
 [Spider-Man]: https://en.wikipedia.org/wiki/Spider-Man "See Wikipedia page on Spider-Man"
 
+<!-- Travis CI -->
+
+[Travis CI]: https://travis-ci.com/ "Visit Travis CI website"
+[Travis Badge]: https://travis-ci.org/alan-if/alan-by-examples.svg
+[Travis LInk]: https://travis-ci.org/alan-if/alan-by-examples
 
 <!-- ALAN -->
 
@@ -211,6 +260,7 @@ The above folder contains the Windows executables of the [Alan SDK], which are r
 [ALAN StdLibLab]: https://github.com/tajmone/Alan-StdLibLab "Visit the ALAN StdLibLab project on GitHub"
 [Alan Italian]: https://github.com/tajmone/Alan3-Italian "Visit the Alan Italian project on GitHub"
 [Sublime Alan]: https://github.com/tajmone/sublime-alan "Visit the Sublime Alan project on GitHub"
+[ALAN Builder]: https://github.com/alan-if/Alan-Builder "Visit the ALAN Builder project on GitHub"
 
 <!-- Alan docs & tutorials -->
 
@@ -221,6 +271,11 @@ The above folder contains the Windows executables of the [Alan SDK], which are r
 [The Alan Beginner's Guide]: http://htmlpreview.github.io/?https://github.com/alan-if/alan-docs/blob/master/alanguide/alanguide.html "Live HTML preview of the Alan Beginner's Guide"
 
 [Samples & examples for alan v3]: https://www.alanif.se/information/samples
+
+<!-- PureBasic -->
+
+[PureBasic]: https://www.purebasic.com "Visit PureBasic website."
+[third party components used by the PureBasic compiler]:https://www.purebasic.com/documentation/reference/license_application.html "Read full details on PureBasic online documentation"
 
 <!-- 3r party tools -->
 
