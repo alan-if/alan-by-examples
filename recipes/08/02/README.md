@@ -11,6 +11,7 @@ Inspired by same-named section of _[The Inform Recipe Book]_.
 <!-- MarkdownTOC autolink="true" bracket="round" autoanchor="false" lowercase="only_ascii" uri_encoding="true" levels="1,2,3,4" -->
 
 - [Introduction](#introduction)
+- [Available Examples](#available-examples)
 - [Implementation Overview](#implementation-overview)
     - [Common Elements](#common-elements)
     - [Variable Features](#variable-features)
@@ -27,6 +28,11 @@ This section deals with transportation vehicles which can be entered by the hero
 The main difference is that when an actor enters a ship, a train or an elevator, it's as if it entered another room altogether — although you can see the train from the station platform, you don't expect the train passengers to be in scope from the platform (i.e. visible and possible to interact with); whereas if an NPC mounts a horse you'd expect that actor and the horse to be viewable and in the scope when the player is at the location.
 
 Ships, trains and elevators should have enough dissimilar elements to constitute a base example for any other vehicles belonging to this category.
+
+# Available Examples
+
+- [`simple-elevator.alan`](./simple-elevator.alan)
+- [`simple-elevator.a3log`](./simple-elevator.a3log)
 
 # Implementation Overview
 

@@ -24,9 +24,9 @@ These are the currently available book chapters and sections — the number of e
 
 - [ ] 1. [How to Use The Recipe Book]
 - [ ] 8. [Vehicles, Animals and Furniture]
-    + [ ] 8.2. [Ships, Trains and Elevators]  (0)
+    + [ ] 8.2. [Ships, Trains and Elevators]  (1)
 
-Some sections indicate zero examples, which means that only the introductory text has been written to provide guidelines for contributing examples.
+If a section indicate zero examples, it means that only the introductory text has been written, to provide guidelines for contributing examples.
 
 The above task list is used to track the status of the various chapters and sections, where a check mark indicates that the minimum requirements have been met to declare a chapter or section sufficiently complete.
 

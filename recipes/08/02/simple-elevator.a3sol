@@ -1,0 +1,12 @@
+north
+press 2
+south
+down
+north
+call elevator
+north
+press button
+press 1
+press 2
+south
+call elevator
