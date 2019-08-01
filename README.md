@@ -182,7 +182,9 @@ The full source code (in [PureBasic]) can be found on the __ALAN Builder__ repos
 
 - [www.AlanIF.se][ALAN] — the ALAN website.
 - [ALAN Yahoo Group] — for community help, announcements and discussions.
-- [ALAN sources][ALAN Bitbucket] — source code repository on Bitbucket.
+- [Alan sources on Bitbucket][Alan Bitbucket] — source code repository on Bitbucket.
+- [Alan sources on GitHub][Alan GitHub] — source code repository on GitHub.
+- [Alan IF Development team] — GitHub profile and public projects.
 
 ## Documentation and Tutorials
 
@@ -236,7 +238,8 @@ The full source code (in [PureBasic]) can be found on the __ALAN Builder__ repos
 [ALAN]: https://www.alanif.se/ "Visit the ALAN website"
 [ALAN IF]: https://www.alanif.se/ "Visit the ALAN website"
 [ALAN Yahoo Group]: https://groups.yahoo.com/neo/groups/alan-if/info "Visit the Alan-IF group on Yahoo"
-[ALAN Bitbucket]: https://bitbucket.org/alanif/alan/ "Visit the ALAN source repository on Bitbucket"
+[Alan Bitbucket]: https://bitbucket.org/alanif/alan/ "Visit the Alan source repository on Bitbucket"
+[Alan GitHub]: https://github.com/alan-if/alan/ "Visit the Alan source repository on GitHub"
 
 [Alan SDK]: https://www.alanif.se/download-alan-v3/development-kits "Go to the Alan SDK section of the ALAN website"
 
@@ -289,6 +292,7 @@ The full source code (in [PureBasic]) can be found on the __ALAN Builder__ repos
 
 <!-- people -->
 
+[Alan IF Development team]: https://github.com/alan-if "Visit the Alan Interactive Fiction Development team organization on GitHub"
 [Alan Interactive Fiction Development team]: https://github.com/alan-if "Visit the Alan Interactive Fiction Development team organization on GitHub"
 
 [Anssi Räisänen]: https://github.com/AnssiR66 "View Anssi Räisänen's GitHub profile"
