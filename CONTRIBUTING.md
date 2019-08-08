@@ -20,6 +20,7 @@ A few guidelines for submitting contents to the __ALAN by Examples__ projects.
     - [README Files](#readme-files)
     - [Submitting Examples](#submitting-examples)
         - [Examples Documentation](#examples-documentation)
+    - [Testing Before Submitting](#testing-before-submitting)
 
 <!-- /MarkdownTOC -->
 
@@ -27,7 +28,14 @@ A few guidelines for submitting contents to the __ALAN by Examples__ projects.
 
 # Introduction
 
-Anyone can contribute examples to the project, via Git and GitHub.
+Anyone can contribute examples to the project, either via:
+
+- __eMail__ — i.e. sending your example to <tajmone@gmail.com>.
+- __Git and GitHub__ — i.e. by creating a pull request on the repository.
+
+The latter contribution method is the preferred one, but sending the source files via email might be the simplest solution for many Alan users.
+
+If you decide to contribute via [Git], then you'll need to stick to the following guidelines, whereas eMail contributors only have to focus on creating the example adventure, and the project maintainers will deal with the rest (you should still read the guidelines though, to get a general idea of how contributions are expected to be).
 
 ## Important License Notice
 
@@ -90,6 +98,7 @@ The `.a3sol` and `.a3log` file extensions for commands scripts and transcripts a
 
 The above file naming conventions are important for the automation tool chain that needs to verify integrity of all project files and update their contents whenever a new Alan release is available — i.e. they are _not_ negotiable.
 
+
 ### Examples Documentation
 
 As mentioned above, an example might come with an explanatory document.
@@ -112,7 +121,19 @@ __Free-form plaintext documentation can't be accepted in the project!__
 
 Project maintainers need to be able to convert all documentation to and from the various markup formats at any stage, without having to manually format documents that don't adhere to well established standards.
 Piling up plaintext documentation would eventually cause a bottleneck in the project, which will ultimately require a huge amount of work to fix.
-Since it has become standard practice on any Git related project to adopt a lightweight markup syntax for its documentation, we ask you to stick to one of the above markup syntaxes (they are all easy to learn, and there are hundreds of editors extensions to support them). 
+Since it has become standard practice on any [Git] related project to adopt a lightweight markup syntax for its documentation, we ask you to stick to one of the above markup syntaxes (they are all easy to learn, and there are hundreds of editors extensions to support them). 
+
+## Testing Before Submitting
+
+- `ABuilder.exe` — Build-test binary tool for Windows.
+
+The repository includes some Windows executables to test locally that all examples and their commands scripts actually work and meet some basic standards.
+
+Before submitting an example adventure, first check that it passes all the build tests locally by executing the `ABuilder.exe` tool found in the project root.
+
+> __NOTE__ — Currently the project only ships with binaries to test under Windows OS.
+> Binaries for other OSs shall be made available on request, if needed.
+
 
 <!-----------------------------------------------------------------------------
                                REFERENCE LINKS
@@ -138,5 +159,9 @@ Since it has become standard practice on any Git related project to adopt a ligh
 [Markdown]: https://guides.github.com/features/mastering-markdown/ "Learn more about GitHub Flavored Markdown"
 [ReStructuredText]: http://docutils.sourceforge.net/rst.html "Learn more about ReStructuredText"
 [Textile]: https://www.promptworks.com/textile "Learn more about Textile"
+
+<!-- 3rd party tools -->
+
+[Git]: https://git-scm.com "Visit Git website"
 
 <!-- EOF -->
