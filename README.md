@@ -5,7 +5,10 @@
 
 - https://github.com/alan-if/alan-by-examples
 
-A collection of examples to learn [ALAN IF] v3 — the Alan Interactive Fiction Language. Provided as a public service by the [Alan Interactive Fiction Development team].
+Various collection of examples to learn [ALAN IF] v3 — the Alan Interactive Fiction Language. Provided as a public service by the [Alan Interactive Fiction Development team].
+
+- _[Alan Syntax by Examples]_ — Learn the ALAN language through practical examples.
+- _[The Alan Recipe Book]_ — Learn how to implement various gimmicks and effects in pure ALAN code.
 
 Created by [Tristano Ajmone] in June 2, 2019.
 
@@ -21,6 +24,8 @@ Created by [Tristano Ajmone] in June 2, 2019.
 - [About ALAN](#about-alan)
 - [About This Project](#about-this-project)
 - [Project Organization](#project-organization)
+    - [Alan Syntax by Examples](#alan-syntax-by-examples)
+    - [The Alan Recipe Book](#the-alan-recipe-book)
 - [Contributing](#contributing)
 - [Project License](#project-license)
 - [Third Party Assets Licenses](#third-party-assets-licenses)
@@ -43,7 +48,8 @@ Created by [Tristano Ajmone] in June 2, 2019.
 - [`/_dev/`](./_dev/) — Project maintainers' assets:
     + [`/AlanSDK/`](./_dev/AlanSDK/) — Alan SDK binaries for Windows (for toolchain automation).
 - [`/recipes/`](./recipes/) — _The Alan Recipe Book_.
-- [`ABuilder.exe`](./ABuilder.exe) — tests and builds the project (locally and on GitHub via [Travis CI])
+- [`/syntax/`](./syntax/) — _Alan Syntax by Examples_.
+- [`ABuilder.exe`](./ABuilder.exe) — Tests and builds the project (locally and on GitHub via [Travis CI])
 - [`ABuilderLICENSE`](./ABuilderLICENSE) — MIT License for `ABuilder.exe`.
 - [`CONTRIBUTING.md`](CONTRIBUTING.md) — _Contributors' Guidelines_.
 - [`LICENSE`](./LICENSE) — MIT License.
@@ -70,10 +76,27 @@ Since there are many ways to implement solutions to common IF problems, differen
 
 # Project Organization
 
+- [`/recipes/`](./recipes/) — _The Alan Recipe Book_.
+- [`/syntax/`](./syntax/) — _Alan Syntax by Examples_.
+
 The project being in its early stages, we'd rather leave its structural organization open for now, and let it be shaped by the actual contributions.
 As examples start to flow in, we'll be able to organize them into categories by subfoldering them in a way to make consultation easier.
 
-Currently, there's only the [`recipes/`](./recipes/) directory tree, hosting _[The Alan Recipe Book]_; but more directories will be added as the need arises.
+Currently, there are two sub-projects available: _[The Alan Recipe Book]_ and _[Alan Syntax by Examples]_, both in the making. More directories will be added as the need arises.
+
+## Alan Syntax by Examples
+
+- [`/syntax/`](./syntax/) — _Alan Syntax by Examples_.
+
+A collection of examples to illustrate how to use the various constructs of the ALAN syntax, organized by topics.
+Intended as a supplementary tool for _[The Alan Manual]_.
+
+## The Alan Recipe Book
+
+- [`/recipes/`](./recipes/) — _The Alan Recipe Book_.
+
+A collection of examples on how to implement various gimmicks and effects in pure Alan code.
+Examples are organized following _[The Inform Recipe Book]_ that ships with [Inform 7].
 
 # Contributing
 
@@ -281,15 +304,14 @@ The full source code (in [PureBasic]) can be found on the __ALAN Builder__ repos
 [PureBasic]: https://www.purebasic.com "Visit PureBasic website."
 [third party components used by the PureBasic compiler]:https://www.purebasic.com/documentation/reference/license_application.html "Read full details on PureBasic online documentation"
 
+<!-- Inform 7 -->
+
+[Inform 7]: http://inform7.com "Visit Inform 7 website"
+[The Inform Recipe Book]: http://inform7.com/book/RB_1_1.html "View 'The Inform Recipe Book' online"
+
 <!-- 3r party tools -->
 
 [Sublime Text 3]: https://www.sublimetext.com/ "Visit Sublime Text website"
-
-<!-- repo xrefs -->
-
-[open an issue]: https://github.com/tajmone/alan-by-examples/issues/new "Click to open an issue"
-[Contributors' Guidelines]: ./CONTRIBUTING.md
-[The Alan Recipe Book]: ./recipes/README.md "Go to the The Alan Recipe Book"
 
 <!-- people -->
 
@@ -299,6 +321,17 @@ The full source code (in [PureBasic]) can be found on the __ALAN Builder__ repos
 [Anssi Räisänen]: https://github.com/AnssiR66 "View Anssi Räisänen's GitHub profile"
 [Tristano Ajmone]: https://github.com/tajmone "View Tristano Ajmone's GitHub profile"
 [Thomas Nilefalk]: https://github.com/thoni56 "View Thomas Nilefalk's GitHub profile"
+
+<!-- project xrefs ----------------------------------------------------------->
+
+
+[open an issue]: https://github.com/tajmone/alan-by-examples/issues/new "Click to open an issue"
+[Contributors' Guidelines]: ./CONTRIBUTING.md
+
+<!-- sub-projects -->
+
+[Alan Syntax by Examples]: ./recipes/README.md "Go to the 'Alan Syntax by Examples' project"
+[The Alan Recipe Book]: ./recipes/README.md "Go to 'The Alan Recipe Book' project"
 
 
 <!-- EOF -->
