@@ -39,6 +39,7 @@ Created by [Tristano Ajmone] in June 2, 2019.
 
 # Project Contents
 
+- [`/_assets/`](./_assets/) — Shared assets (images, etc.).
 - [`/_dev/`](./_dev/) — Project maintainers' assets:
     + [`/AlanSDK/`](./_dev/AlanSDK/) — Alan SDK binaries for Windows (for toolchain automation).
 - [`/recipes/`](./recipes/) — _The Alan Recipe Book_.
