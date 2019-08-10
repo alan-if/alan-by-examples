@@ -25,6 +25,8 @@ These are the currently available book chapters and sections — the number of e
 - [ ] 1. [How to Use The Recipe Book]
 - [ ] 8. [Vehicles, Animals and Furniture]
     + [ ] 8.2. [Ships, Trains and Elevators]  (1)
+- [ ] 10. [Physics: Substances, Ropes, Energy and Weight]
+    + [ ] 10.11. [Mathematics]  (1)
 
 If a section indicate zero examples, it means that only the introductory text has been written, to provide guidelines for contributing examples.
 
@@ -120,7 +122,7 @@ The above task list is used to track the status of the various chapters and sect
     + 9.10. Telephones
     + 9.11. Clocks and Scientific Instruments
     + 9.12. Cameras and Recording Devices
-10. Physics: Substances, Ropes, Energy and Weight
+10. [Physics: Substances, Ropes, Energy and Weight]
     + 10.1. Gases
     + 10.2. Liquids
     + 10.3. Dispensers and Supplies of Small Objects
@@ -131,7 +133,7 @@ The above task list is used to track the status of the various chapters and sect
     + 10.8. Fire
     + 10.9. Heat
     + 10.10. Magic (Breaking the Laws of Physics)
-    + 10.11. Mathematics
+    + 10.11. [Mathematics]
 11. Out of World Actions and Effects
     + 11.1. Start-Up Features
     + 11.2. Saving and Undoing
@@ -165,5 +167,10 @@ The above task list is used to track the status of the various chapters and sect
 
 [Vehicles, Animals and Furniture]: ./08/README.md "Go to chapter 8. Vehicles, Animals and Furniture"
 [Ships, Trains and Elevators]: ./08/02/README.md "Go to §8.2. Ships, Trains and Elevators"
+
+<!-- 10. Physics: Substances, Ropes, Energy and Weight -->
+
+[Physics: Substances, Ropes, Energy and Weight]: ./10/README.md "Go to chapter10. Physics: Substances, Ropes, Energy and Weight"
+[Mathematics]: ./10/11/README.md "Go to §10.11. Mathematics"
 
 <!-- EOF -->

@@ -1,0 +1,95 @@
+
+"Maths Rigorosum", by Tristano Ajmone, 2019.
+
+You're a maths teacher at the prestigious Alan III primary school. Young
+student Klein Fritzchen is awaiting for his oral maths test.
+
+In this adventure you have only four commands, all of them being
+arithmetic tasks directed at the student under exam: 
+
+    ADD <number> TO <number>
+    SUBTRACT <number> FROM <number>
+    MULTIPLY <number> BY <number>
+    DIVIDE <number> BY <number> 
+
+Where <number> is always a positive integer.
+
+Good luck adventurer!
+
+
+In The Classroom
+Little Fritzie awaits anxiously to be put to the test.
+
+> ; =========
+> ; Additions
+> ; =========
+> add 3 to 2
+The sum of 3 plus 2 is 5.
+
+> add 8 to 0
+The sum of 8 plus 0 is 8.
+
+> add 0 to 16
+The sum of 0 plus 16 is 16.
+
+> ; ============
+> ; Subtractions
+> ; ============
+> subtract 5 from 10
+The difference of 10 minus 5 is 5.
+
+> subtract 15 from 5
+The difference of 5 minus 15 is -10.
+
+> subtract 0 from 3
+The difference of 3 minus 0 is 3.
+
+> subtract 10 from 0
+The difference of 0 minus 10 is -10.
+
+> ; ===============
+> ; Multiplications
+> ; ===============
+> multiply 3 by 2
+The product of 3 times 2 is 6.
+
+> multiply 11 by 0
+The product of 11 times 0 is 0.
+
+> multiply 0 by 4
+The product of 0 times 4 is 0.
+
+> ; =========
+> ; Divisions
+> ; =========
+> divide 10 by 2
+The quotient of 10 divided by 2 is 5.
+
+> ; 11/3 = 3,666666666666667
+> divide 11 by 3
+The quotient of 11 divided by 3 is 3.666.
+
+> ; 7/3  = 2,33333333333333
+> divide 7 by 3
+The quotient of 7 divided by 3 is 2.333.
+
+> ; 3/7  = 0,4285714285714286
+> divide 3 by 7
+The quotient of 3 divided by 7 is 0.428.
+
+> ; 25/8 = 3,125
+> divide 25 by 8
+The quotient of 25 divided by 8 is 3.125.
+
+> divide 7 by 0
+You can't divide by zero!
+
+> divide 0 by 3
+The division of zero always results in zero!
+
+> divide 0 by 0
+The division of zero always results in zero!
+
+> 
+
+Do you want to UNDO, RESTART, RESTORE or QUIT ? 

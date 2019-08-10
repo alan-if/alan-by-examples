@@ -1,0 +1,34 @@
+; =========
+; Additions
+; =========
+add 3 to 2
+add 8 to 0
+add 0 to 16
+; ============
+; Subtractions
+; ============
+subtract 5 from 10
+subtract 15 from 5
+subtract 0 from 3
+subtract 10 from 0
+; ===============
+; Multiplications
+; ===============
+multiply 3 by 2
+multiply 11 by 0
+multiply 0 by 4
+; =========
+; Divisions
+; =========
+divide 10 by 2
+; 11/3 = 3,666666666666667
+divide 11 by 3
+; 7/3  = 2,33333333333333
+divide 7 by 3
+; 3/7  = 0,4285714285714286
+divide 3 by 7
+; 25/8 = 3,125
+divide 25 by 8
+divide 7 by 0
+divide 0 by 3
+divide 0 by 0

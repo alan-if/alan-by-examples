@@ -1,0 +1,154 @@
+--==============================================================================
+-- "Maths Rigorosum" by Tristano Ajmone
+--==============================================================================
+-- A small adventure to demonstrate the use of the integer class by creating
+-- some verbs to carry out the four basic operations of arithmetic. It also
+-- demonstrates how to implement simple workarounds to the lack of a modulo
+-- operator in Alan, and how to circumvent the fact that fractional numbers
+-- are discarded.
+--------------------------------------------------------------------------------
+
+The classroom IsA location
+  Name 'In The Classroom'.
+  Description "Little Fritzie awaits anxiously to be put to the test."
+End the.
+
+The tmp IsA entity
+  Has -- Some variables for internal use:
+    ErrMsg "You can only use numbers with this verb!".
+    Dividend 0.
+    Divisor 0.
+    Quotient 0.
+    Remainder 0.
+    RoundingFactor 1000.
+End the.
+
+-- =============================================================================
+-- Syntaxes Definitions
+-- =============================================================================
+
+Syntax
+  ADDITION = 'add' (addend1) 'to' (addend2)
+    Where addend1 IsA integer
+      else say tmp:ErrMsg.
+    And addend2 IsA integer
+      else say tmp:ErrMsg.
+
+  SUBTRACTION = subtract (subtrahend) 'from' (minuend)
+    Where subtrahend IsA integer
+      else say tmp:ErrMsg.
+    And minuend IsA integer
+      else say tmp:ErrMsg.
+
+  MULTIPLICATION = multiply (factor1) 'by' (factor2)
+    Where factor1 IsA integer
+      else say tmp:ErrMsg.
+    And factor2 IsA integer
+      else say tmp:ErrMsg.
+
+  DIVISION = divide (dividend) 'by' (divisor)
+    Where dividend IsA integer
+      else say tmp:ErrMsg.
+    And divisor IsA integer
+      else say tmp:ErrMsg.
+
+-- =============================================================================
+-- Verbs Definitions
+-- =============================================================================
+
+Add to every integer
+  -------------
+  Verb ADDITION
+  -------------
+    When addend1 does
+      "The sum of $1 plus $2 is" SAY addend1 + addend2. "."
+  End verb.
+  ----------------
+  Verb SUBTRACTION
+  ----------------
+    When subtrahend does
+      "The difference of $2 minus $1 is" SAY minuend - subtrahend. "."
+  End verb.
+  -------------------
+  Verb MULTIPLICATION
+  -------------------
+    When factor1 does
+      "The product of $1 times $2 is" SAY factor1 * factor2. "."
+  End verb.
+  -------------
+  Verb DIVISION
+  -------------
+    When dividend
+      Check dividend <> 0
+        Else "The division of zero always results in zero!"
+      And divisor <> 0 -- Division by zero would crash the interpreter!
+        Else "You can't divide by zero!"
+      Does
+        Set tmp:Quotient to dividend / divisor.
+        Set tmp:Dividend to dividend.
+        Set tmp:Remainder to dividend.
+        Set tmp:Divisor to divisor.
+        "The quotient of $1 divided by $2 is"
+        If tmp:Quotient <> 0
+          Then
+            Say tmp:Quotient.
+            Schedule GetRemainder after 0.
+          Else
+            "0.$$" Say (dividend * tmp:RoundingFactor) / divisor. "."
+        End if.
+  End verb.
+End add to integer.
+
+-- =============================================================================
+-- Calculate Remainder Hack
+-- =============================================================================
+
+-- Since Alan doesn't provide a modulo operator, we'll resort to this event as a
+-- hack to calculate the remainder.
+
+Event GetRemainder
+  -------------------------------------------------------------------
+  -- Keep subtracting divisor from dividend until dividend < divisor.
+  -- The event is "looped" by rescheduling itself.
+  -- NOTE: tmp:Remainder starting value is same as dividend.
+  -------------------------------------------------------------------
+  If tmp:Remainder >= tmp:Divisor
+    Then
+      Set tmp:Remainder to tmp:Remainder - tmp:Divisor.
+      Schedule GetRemainder after 0.
+    Else
+      -- Now that we've found the remainder...
+      -- If it's 0, no need to mention it (do nothing, quit event).
+      If tmp:Remainder <> 0
+        Then -- There's a remainder!
+          ------------------------------------------------------
+          -- Since Alan discards any decimal numbers (1.5 -> 1),
+          -- we need another hack to circumvent this limitation.
+          ------------------------------------------------------
+          If tmp:Remainder * tmp:Divisor = tmp:Dividend
+            Then ", with a remainder of" Say tmp:Remainder.
+            Else "$$.$$" Say (tmp:Remainder * tmp:RoundingFactor) / tmp:divisor.
+          End If.
+      End if. "."
+  End if.
+End event.
+
+--------------------------------------------------------------------------------
+Start at classroom.
+
+"""Maths Rigorosum"", by Tristano Ajmone, 2019.
+
+$pYou're a maths teacher at the prestigious Alan III primary school.
+Young student Klein Fritzchen is awaiting for his oral maths test.
+
+$pIn this adventure you have only four commands, all of them being arithmetic
+tasks directed at the student under exam:"
+
+STYLE PREFORMATTED.
+"$p$tADD <number> TO <number>
+ $n$tSUBTRACT <number> FROM <number>
+ $n$tMULTIPLY <number> BY <number>
+ $n$tDIVIDE <number> BY <number>"
+STYLE NORMAL.
+
+"$pwhere <number> is always a positive integer.$pGood luck adventurer!"
