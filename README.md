@@ -282,8 +282,8 @@ The full source code (in [PureBasic]) can be found on the __ALAN Builder__ repos
 
 <!-- Alan misc -->
 
-[Alan Goodies]: https://github.com/tajmone/alan-goodies "Visit the Alan Goodies project on GitHub"
-[ALAN Library v0.6.2]: https://github.com/tajmone/alan-goodies/tree/master/libs "View ALAN Lib v0.6.2 at the 'Alan Goodies' project"
+[Alan Goodies]: https://github.com/alan-if/alan-goodies "Visit the Alan Goodies project on GitHub"
+[ALAN Library v0.6.2]: https://github.com/alan-if/alan-goodies/tree/master/libs "View ALAN Lib v0.6.2 at the 'Alan Goodies' project"
 [ALAN StdLibLab]: https://github.com/tajmone/Alan-StdLibLab "Visit the ALAN StdLibLab project on GitHub"
 [Alan Italian]: https://github.com/tajmone/Alan3-Italian "Visit the Alan Italian project on GitHub"
 [Sublime Alan]: https://github.com/tajmone/sublime-alan "Visit the Sublime Alan project on GitHub"
