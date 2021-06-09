@@ -236,7 +236,7 @@ The full source code (in [PureBasic]) can be found on the __ALAN Builder__ repos
     + [AlanIDE info page].
     + _[Alan IDE Reference Guide]_ — by Robert DeFord (2018), PDF document.
     + [AlanIDE sources] — JAVA source files, on GitHub.
-- [Sublime Alan] — [Sublime Text 3] package for Alan 3 (working Alpha).
+- [Sublime Alan IF] — [Sublime Text 4] package for Alan 3 (working Alpha).
 
 
 ## Miscellanea
@@ -286,7 +286,7 @@ The full source code (in [PureBasic]) can be found on the __ALAN Builder__ repos
 [ALAN Library v0.6.2]: https://github.com/alan-if/alan-goodies/tree/master/libs "View ALAN Lib v0.6.2 at the 'Alan Goodies' project"
 [ALAN StdLibLab]: https://github.com/tajmone/Alan-StdLibLab "Visit the ALAN StdLibLab project on GitHub"
 [Alan Italian]: https://github.com/tajmone/Alan3-Italian "Visit the Alan Italian project on GitHub"
-[Sublime Alan]: https://github.com/tajmone/sublime-alan "Visit the Sublime Alan project on GitHub"
+[Sublime Alan IF]: https://github.com/tajmone/sublime-alan-if "Visit the Sublime Alan IF project on GitHub"
 [ALAN Builder]: https://github.com/alan-if/Alan-Builder "Visit the ALAN Builder project on GitHub"
 
 <!-- Alan docs & tutorials -->
@@ -311,7 +311,7 @@ The full source code (in [PureBasic]) can be found on the __ALAN Builder__ repos
 
 <!-- 3r party tools -->
 
-[Sublime Text 3]: https://www.sublimetext.com/ "Visit Sublime Text website"
+[Sublime Text 4]: https://www.sublimetext.com "Visit Sublime Text website"
 
 <!-- people -->
 
